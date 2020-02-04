@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/qwdwe"
+    tools:context=".DropC">
+
+
+    <Spinner
+        android:id="@+id/dcspinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_above="@+id/base1"
+        android:layout_marginBottom="70dp"
+        android:layout_margin="60dp"
+        style="@style/Widget.AppCompat.Spinner"
+        android:background="@drawable/spinner_background"
+        android:theme="@style/SpinnerTheme"/>
+
+        />
+
+
+    <ImageView
+        android:id="@+id/base1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dfsfa"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_alignTop="@+id/base1"
+        android:background="@drawable/mybtn1"
+        android:layout_toLeftOf="@+id/base1"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/mybtn1"
+        android:layout_alignBaseline="@+id/base1"
+        android:layout_toLeftOf="@+id/base1"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybtn1"
+        android:text="C"
+        android:layout_alignBottom="@+id/base1"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybtn1"
+        android:text="F"
+        android:layout_alignTop="@+id/base1"
+        android:layout_toRightOf="@+id/base1"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:background="@drawable/mybtn1"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/base1"
+
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/base1"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybtn1"
+        android:text="D"
+        android:layout_alignBottom="@+id/base1"
+        android:layout_toRightOf="@+id/base1"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asdfe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tuner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".guitarlistview"></activity>
+        <activity android:name=".version" />
+        <activity android:name=".spcustomlv" />
+        <activity android:name=".ModalC6" />
+        <activity android:name=".OpenGminor" />
+        <activity android:name=".OpenG" />
+        <activity android:name=".ModalC" />
+        <activity android:name=".ModalD" />
+        <activity android:name=".OpenDminor" />
+        <activity android:name=".OpenD" />
+        <activity android:name=".oneand12stepdown" />
+        <activity android:name=".Halfstepdown" />
+        <activity android:name=".DropB" />
+        <activity android:name=".DropD" />
+        <activity android:name=".DropC" />
+        <activity android:name=".cord" />
+        <activity android:name=".maindactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
